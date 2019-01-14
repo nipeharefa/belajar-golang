@@ -8,7 +8,9 @@ func main() {
 	// (*) atau disebut juga dengan asterisk
 	// menandakan variabel bertipe pointer
 	// ampersand(&) digunakan untuk mengambil nilai pointernya
+
 	var angkaA int = 4
+	// Menyimpan alamat memory dari angka2
 	var angkaB *int = &angkaA
 	var angkaC int = angkaA
 	// Pointer null
